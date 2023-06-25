@@ -1,0 +1,239 @@
+{
+  "minimum_wages": [
+    {
+      "prefecture_name": "北海道",
+      "minimum_wage": 920,
+      "effective_start_date": "2022-10-02"
+    },
+    {
+      "prefecture_name": "青森",
+      "minimum_wage": 853,
+      "effective_start_date": "2022-10-05"
+    },
+    {
+      "prefecture_name": "岩手",
+      "minimum_wage": 854,
+      "effective_start_date": "2022-10-20"
+    },
+    {
+      "prefecture_name": "宮城",
+      "minimum_wage": 883,
+      "effective_start_date": "2022-10-01"
+    },
+    {
+      "prefecture_name": "秋田",
+      "minimum_wage": 853,
+      "effective_start_date": "2022-10-01"
+    },
+    {
+      "prefecture_name": "山形",
+      "minimum_wage": 854,
+      "effective_start_date": "2022-10-06"
+    },
+    {
+      "prefecture_name": "福島",
+      "minimum_wage": 858,
+      "effective_start_date": "2022-10-06"
+    },
+    {
+      "prefecture_name": "茨城",
+      "minimum_wage": 911,
+      "effective_start_date": "2022-10-01"
+    },
+    {
+      "prefecture_name": "栃木",
+      "minimum_wage": 913,
+      "effective_start_date": "2022-10-01"
+    },
+    {
+      "prefecture_name": "群馬",
+      "minimum_wage": 895,
+      "effective_start_date": "2022-10-08"
+    },
+    {
+      "prefecture_name": "埼玉",
+      "minimum_wage": 987,
+      "effective_start_date": "2022-10-01"
+    },
+    {
+      "prefecture_name": "千葉",
+      "minimum_wage": 984,
+      "effective_start_date": "2022-10-01"
+    },
+    {
+      "prefecture_name": "東京",
+      "minimum_wage": 1072,
+      "effective_start_date": "2022-10-01"
+    },
+    {
+      "prefecture_name": "神奈川",
+      "minimum_wage": 1071,
+      "effective_start_date": "2022-10-01"
+    },
+    {
+      "prefecture_name": "新潟",
+      "minimum_wage": 890,
+      "effective_start_date": "2022-10-01"
+    },
+    {
+      "prefecture_name": "富山",
+      "minimum_wage": 908,
+      "effective_start_date": "2022-10-01"
+    },
+    {
+      "prefecture_name": "石川",
+      "minimum_wage": 891,
+      "effective_start_date": "2022-10-08"
+    },
+    {
+      "prefecture_name": "福井",
+      "minimum_wage": 888,
+      "effective_start_date": "2022-10-02"
+    },
+    {
+      "prefecture_name": "山梨",
+      "minimum_wage": 898,
+      "effective_start_date": "2022-10-20"
+    },
+    {
+      "prefecture_name": "長野",
+      "minimum_wage": 908,
+      "effective_start_date": "2022-10-01"
+    },
+    {
+      "prefecture_name": "岐阜",
+      "minimum_wage": 910,
+      "effective_start_date": "2022-10-01"
+    },
+    {
+      "prefecture_name": "静岡",
+      "minimum_wage": 944,
+      "effective_start_date": "2022-10-05"
+    },
+    {
+      "prefecture_name": "愛知",
+      "minimum_wage": 986,
+      "effective_start_date": "2022-10-01"
+    },
+    {
+      "prefecture_name": "三重",
+      "minimum_wage": 933,
+      "effective_start_date": "2022-10-01"
+    },
+    {
+      "prefecture_name": "滋賀",
+      "minimum_wage": 927,
+      "effective_start_date": "2022-10-06"
+    },
+    {
+      "prefecture_name": "京都",
+      "minimum_wage": 968,
+      "effective_start_date": "2022-10-09"
+    },
+    {
+      "prefecture_name": "大阪",
+      "minimum_wage": 1023,
+      "effective_start_date": "2022-10-01"
+    },
+    {
+      "prefecture_name": "兵庫",
+      "minimum_wage": 960,
+      "effective_start_date": "2022-10-01"
+    },
+    {
+      "prefecture_name": "奈良",
+      "minimum_wage": 896,
+      "effective_start_date": "2022-10-01"
+    },
+    {
+      "prefecture_name": "和歌山",
+      "minimum_wage": 889,
+      "effective_start_date": "2022-10-01"
+    },
+    {
+      "prefecture_name": "鳥取",
+      "minimum_wage": 854,
+      "effective_start_date": "2022-10-06"
+    },
+    {
+      "prefecture_name": "島根",
+      "minimum_wage": 857,
+      "effective_start_date": "2022-10-05"
+    },
+    {
+      "prefecture_name": "岡山",
+      "minimum_wage": 892,
+      "effective_start_date": "2022-10-01"
+    },
+    {
+      "prefecture_name": "広島",
+      "minimum_wage": 930,
+      "effective_start_date": "2022-10-01"
+    },
+    {
+      "prefecture_name": "山口",
+      "minimum_wage": 888,
+      "effective_start_date": "2022-10-13"
+    },
+    {
+      "prefecture_name": "徳島",
+      "minimum_wage": 855,
+      "effective_start_date": "2022-10-06"
+    },
+    {
+      "prefecture_name": "香川",
+      "minimum_wage": 878,
+      "effective_start_date": "2022-10-01"
+    },
+    {
+      "prefecture_name": "愛媛",
+      "minimum_wage": 853,
+      "effective_start_date": "2022-10-05"
+    },
+    {
+      "prefecture_name": "高知",
+      "minimum_wage": 853,
+      "effective_start_date": "2022-10-09"
+    },
+    {
+      "prefecture_name": "福岡",
+      "minimum_wage": 900,
+      "effective_start_date": "2022-10-08"
+    },
+    {
+      "prefecture_name": "佐賀",
+      "minimum_wage": 853,
+      "effective_start_date": "2022-10-02"
+    },
+    {
+      "prefecture_name": "長崎",
+      "minimum_wage": 853,
+      "effective_start_date": "2022-10-08"
+    },
+    {
+      "prefecture_name": "熊本",
+      "minimum_wage": 853,
+      "effective_start_date": "2022-10-01"
+    },
+    {
+      "prefecture_name": "大分",
+      "minimum_wage": 854,
+      "effective_start_date": "2022-10-05"
+    },
+    {
+      "prefecture_name": "宮崎",
+      "minimum_wage": 853,
+      "effective_start_date": "2022-10-06"
+    },
+    {
+      "prefecture_name": "鹿児島",
+      "minimum_wage": 853,
+      "effective_start_date": "2022-10-06"
+    },
+    {
+      "prefecture_name": "沖縄",
+      "minimum_wage": 853,
+      "effective_start_date": "2022-10-06"
+    }
+  ]
+}
