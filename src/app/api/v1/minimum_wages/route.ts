@@ -35,7 +35,7 @@ export async function GET(request: NextRequest) {
         (minimumWage) => {
           return minimumWage.prefectureName === queryParams.prefectureName
         }
-      )
+      )[0]
     )
   }
 
