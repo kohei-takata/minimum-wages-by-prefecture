@@ -30,12 +30,13 @@ export async function GET(request: NextRequest) {
       })
     }
 
-    return NextResponse.json(
-      minimumWages.minimumWages.filter(
-        (minimumWage) => {
-          return minimumWage.prefectureName === queryParams.prefectureName
-        }
-      )[0]
+    return NextResponse.json({
+        minimumWages: minimumWages.minimumWages.filter(
+          (minimumWage) => {
+            return minimumWage.prefectureName === queryParams.prefectureName
+          }
+        )
+      }
     )
   }
 
