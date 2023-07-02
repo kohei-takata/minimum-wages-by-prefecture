@@ -1,4 +1,4 @@
-export class MinimumWage {
+export type MinimumWage = {
   prefectureName: string
   minimumWage: number
   effectiveStartDate: string

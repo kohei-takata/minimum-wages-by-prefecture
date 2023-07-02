@@ -1,5 +1,5 @@
 import {MinimumWage} from "./MinimumWage";
 
-export class MinimumWages {
+export type MinimumWages = {
   minimumWages: MinimumWage[]
 }
