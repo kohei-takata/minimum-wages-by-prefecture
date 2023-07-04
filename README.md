@@ -4,7 +4,7 @@
 https://minimum-wages-by-prefecture.vercel.app/api/v1/minimum_wages
 
 ### 都道府県を指定して取得
-https://minimum-wages-by-prefecture.vercel.app/api/v1/minimum_wage?prefectureName=東京
+https://minimum-wages-by-prefecture.vercel.app/api/v1/minimum_wage?prefectureName=北海道
 
 ```
 {
