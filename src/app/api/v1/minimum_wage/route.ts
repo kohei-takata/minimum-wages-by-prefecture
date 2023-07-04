@@ -1,4 +1,4 @@
-import {NextResponse} from 'next/server'
+import {NextRequest, NextResponse} from 'next/server'
 import {promises as fs} from 'fs'
 import humps from 'humps'
 import {MinimumWages} from "../../../types/MinimumWages";
@@ -10,7 +10,7 @@ type QueryParameter = {
   prefectureName?: string
 }
 
-export async function GET(request) {
+export async function GET(request: NextRequest) {
   const queryParams = url.parse(request.url, true).query as QueryParameter;
 
   const data = await fs.readFile(process.cwd() + CURRENT_JSON_PATH, 'utf-8')
