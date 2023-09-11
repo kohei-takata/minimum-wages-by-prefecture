@@ -54,9 +54,7 @@ export async function GET(request: NextRequest) {
   try {
     nextData = await fs.readFile(process.cwd() + NEXT_JSON_PATH, 'utf-8')
   } catch (e) {
-    if (e.code === 'ENOENT') {
-      isNextDataCreated = false
-    }
+    isNextDataCreated = false
   }
 
   if (!isNextDataCreated) {

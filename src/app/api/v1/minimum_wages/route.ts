@@ -31,9 +31,7 @@ export async function GET(request: NextRequest) {
   try {
     nextData = await fs.readFile(process.cwd() + NEXT_JSON_PATH, 'utf-8')
   } catch (e) {
-    if (e.code === 'ENOENT') {
-      isNextDataCreated = false
-    }
+    isNextDataCreated = false
   }
   if (!isNextDataCreated) {
     return createResponse(currentMinimumWages)
@@ -46,19 +44,19 @@ export async function GET(request: NextRequest) {
   }
 
   const mergedMinimumWages = nextMinimumWages
-      .minimumWages
-      .map((nextMinimumWage) => {
-        const startDate = dayjs(nextMinimumWage.effectiveStartDate).tz()
-        const currentDate = dayjs().tz()
-        if (currentDate.isBefore(startDate)) {
-          const currentMinimumWage: MinimumWage = currentMinimumWages.minimumWages.find(
-            (currentMinimumWage) => {
-              return currentMinimumWage.prefectureName === nextMinimumWage.prefectureName
-            })
-          return currentMinimumWage
-        }
-        return nextMinimumWage
-      })
+    .minimumWages
+    .map((nextMinimumWage) => {
+      const startDate = dayjs(nextMinimumWage.effectiveStartDate).tz()
+      const currentDate = dayjs().tz()
+      if (currentDate.isBefore(startDate)) {
+        const currentMinimumWage: MinimumWage = currentMinimumWages.minimumWages.find(
+          (currentMinimumWage) => {
+            return currentMinimumWage.prefectureName === nextMinimumWage.prefectureName
+          })
+        return currentMinimumWage
+      }
+      return nextMinimumWage
+    })
 
   return createResponse({minimumWages: mergedMinimumWages} as MinimumWages)
 
