@@ -44,7 +44,7 @@ export async function GET(request: NextRequest) {
     }
   );
 
-  if (currentMinimumWage === undefined) {
+  if (typeof currentMinimumWage === 'undefined') {
     return createErrorResponse(errorBody);
   }
 
@@ -67,7 +67,7 @@ export async function GET(request: NextRequest) {
     }
   );
 
-  if (nextMinimumWage === undefined) {
+  if (typeof nextMinimumWage === 'undefined') {
     return createErrorResponse(errorBody);
   }
 

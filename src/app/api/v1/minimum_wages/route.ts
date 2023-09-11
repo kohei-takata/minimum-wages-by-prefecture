@@ -49,7 +49,7 @@ export async function GET(request: NextRequest) {
       const startDate = dayjs(nextMinimumWage.effectiveStartDate).tz()
       const currentDate = dayjs().tz()
       if (currentDate.isBefore(startDate)) {
-        const currentMinimumWage: MinimumWage = currentMinimumWages.minimumWages.find(
+        const currentMinimumWage = currentMinimumWages.minimumWages.find(
           (currentMinimumWage) => {
             return currentMinimumWage.prefectureName === nextMinimumWage.prefectureName
           })
