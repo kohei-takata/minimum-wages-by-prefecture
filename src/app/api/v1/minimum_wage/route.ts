@@ -57,7 +57,7 @@ export async function GET(request: NextRequest) {
     isNextDataCreated = false
   }
 
-  if (!isNextDataCreated) {
+  if (typeof nextData === 'undefined' || !isNextDataCreated) {
     return createResponse(currentMinimumWage);
   }
 

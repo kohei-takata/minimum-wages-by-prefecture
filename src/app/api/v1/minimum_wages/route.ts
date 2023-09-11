@@ -33,7 +33,7 @@ export async function GET(request: NextRequest) {
   } catch (e) {
     isNextDataCreated = false
   }
-  if (!isNextDataCreated) {
+  if (typeof nextData === 'undefined' || !isNextDataCreated) {
     return createResponse(currentMinimumWages)
   }
 
