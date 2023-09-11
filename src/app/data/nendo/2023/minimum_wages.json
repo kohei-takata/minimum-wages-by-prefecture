@@ -1,0 +1,239 @@
+{
+  "minimum_wages": [
+    {
+      "prefecture_name": "北海道",
+      "minimum_wage": 960,
+      "effective_start_date": "2023-10-01"
+    },
+    {
+      "prefecture_name": "青森県",
+      "minimum_wage": 898,
+      "effective_start_date": "2023-10-07"
+    },
+    {
+      "prefecture_name": "岩手県",
+      "minimum_wage": 893,
+      "effective_start_date": "2023-10-04"
+    },
+    {
+      "prefecture_name": "宮城県",
+      "minimum_wage": 923,
+      "effective_start_date": "2023-10-01"
+    },
+    {
+      "prefecture_name": "秋田県",
+      "minimum_wage": 897,
+      "effective_start_date": "2023-10-01"
+    },
+    {
+      "prefecture_name": "山形県",
+      "minimum_wage": 900,
+      "effective_start_date": "2023-10-14"
+    },
+    {
+      "prefecture_name": "福島県",
+      "minimum_wage": 900,
+      "effective_start_date": "2023-10-01"
+    },
+    {
+      "prefecture_name": "茨城県",
+      "minimum_wage": 953,
+      "effective_start_date": "2023-10-01"
+    },
+    {
+      "prefecture_name": "栃木県",
+      "minimum_wage": 954,
+      "effective_start_date": "2023-10-01"
+    },
+    {
+      "prefecture_name": "群馬県",
+      "minimum_wage": 935,
+      "effective_start_date": "2023-10-05"
+    },
+    {
+      "prefecture_name": "埼玉県",
+      "minimum_wage": 1028,
+      "effective_start_date": "2023-10-01"
+    },
+    {
+      "prefecture_name": "千葉県",
+      "minimum_wage": 1026,
+      "effective_start_date": "2023-10-01"
+    },
+    {
+      "prefecture_name": "東京都",
+      "minimum_wage": 1113,
+      "effective_start_date": "2023-10-01"
+    },
+    {
+      "prefecture_name": "神奈川県",
+      "minimum_wage": 1112,
+      "effective_start_date": "2023-10-01"
+    },
+    {
+      "prefecture_name": "新潟県",
+      "minimum_wage": 931,
+      "effective_start_date": "2023-10-01"
+    },
+    {
+      "prefecture_name": "富山県",
+      "minimum_wage": 948,
+      "effective_start_date": "2023-10-01"
+    },
+    {
+      "prefecture_name": "石川県",
+      "minimum_wage": 933,
+      "effective_start_date": "2023-10-04"
+    },
+    {
+      "prefecture_name": "福井県",
+      "minimum_wage": 931,
+      "effective_start_date": "2023-10-01"
+    },
+    {
+      "prefecture_name": "山梨県",
+      "minimum_wage": 938,
+      "effective_start_date": "2023-10-01"
+    },
+    {
+      "prefecture_name": "長野県",
+      "minimum_wage": 948,
+      "effective_start_date": "2023-10-01"
+    },
+    {
+      "prefecture_name": "岐阜県",
+      "minimum_wage": 950,
+      "effective_start_date": "2023-10-01"
+    },
+    {
+      "prefecture_name": "静岡県",
+      "minimum_wage": 984,
+      "effective_start_date": "2023-10-01"
+    },
+    {
+      "prefecture_name": "愛知県",
+      "minimum_wage": 1027,
+      "effective_start_date": "2023-10-01"
+    },
+    {
+      "prefecture_name": "三重県",
+      "minimum_wage": 973,
+      "effective_start_date": "2023-10-01"
+    },
+    {
+      "prefecture_name": "滋賀県",
+      "minimum_wage": 967,
+      "effective_start_date": "2023-10-01"
+    },
+    {
+      "prefecture_name": "京都府",
+      "minimum_wage": 1008,
+      "effective_start_date": "2023-10-06"
+    },
+    {
+      "prefecture_name": "大阪府",
+      "minimum_wage": 1064,
+      "effective_start_date": "2023-10-01"
+    },
+    {
+      "prefecture_name": "兵庫県",
+      "minimum_wage": 1001,
+      "effective_start_date": "2023-10-01"
+    },
+    {
+      "prefecture_name": "奈良県",
+      "minimum_wage": 936,
+      "effective_start_date": "2023-10-01"
+    },
+    {
+      "prefecture_name": "和歌山県",
+      "minimum_wage": 929,
+      "effective_start_date": "2023-10-01"
+    },
+    {
+      "prefecture_name": "鳥取県",
+      "minimum_wage": 900,
+      "effective_start_date": "2023-10-05"
+    },
+    {
+      "prefecture_name": "島根県",
+      "minimum_wage": 904,
+      "effective_start_date": "2023-10-06"
+    },
+    {
+      "prefecture_name": "岡山県",
+      "minimum_wage": 932,
+      "effective_start_date": "2023-10-01"
+    },
+    {
+      "prefecture_name": "広島県",
+      "minimum_wage": 970,
+      "effective_start_date": "2023-10-01"
+    },
+    {
+      "prefecture_name": "山口県",
+      "minimum_wage": 928,
+      "effective_start_date": "2023-10-01"
+    },
+    {
+      "prefecture_name": "徳島県",
+      "minimum_wage": 896,
+      "effective_start_date": "2023-10-01"
+    },
+    {
+      "prefecture_name": "香川県",
+      "minimum_wage": 918,
+      "effective_start_date": "2023-10-01"
+    },
+    {
+      "prefecture_name": "愛媛県",
+      "minimum_wage": 897,
+      "effective_start_date": "2023-10-06"
+    },
+    {
+      "prefecture_name": "高知県",
+      "minimum_wage": 897,
+      "effective_start_date": "2023-10-08"
+    },
+    {
+      "prefecture_name": "福岡県",
+      "minimum_wage": 941,
+      "effective_start_date": "2023-10-06"
+    },
+    {
+      "prefecture_name": "佐賀県",
+      "minimum_wage": 900,
+      "effective_start_date": "2023-10-14"
+    },
+    {
+      "prefecture_name": "長崎県",
+      "minimum_wage": 898,
+      "effective_start_date": "2023-10-13"
+    },
+    {
+      "prefecture_name": "熊本県",
+      "minimum_wage": 898,
+      "effective_start_date": "2023-10-08"
+    },
+    {
+      "prefecture_name": "大分県",
+      "minimum_wage": 899,
+      "effective_start_date": "2023-10-06"
+    },
+    {
+      "prefecture_name": "宮崎県",
+      "minimum_wage": 897,
+      "effective_start_date": "2023-10-06"
+    },
+    {
+      "prefecture_name": "鹿児島県",
+      "minimum_wage": 897,
+      "effective_start_date": "2023-10-06"
+    },
+    {
+      "prefecture_name": "沖縄県",
+      "minimum_wage": 896,
+      "effective_start_date": "2023-10-08"
+    }
+  ]
+}
